@@ -18,7 +18,7 @@
         body{padding:0;margin:0;font-size:1.125rem;font-weight:100;line-height:1.375rem;font-family:'Encode Sans Semi Condensed',sans-serif;color:#212529;text-align:left;background-color:#F6F6F6}
         .nav{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}
         .navbar{position:relative;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:.25rem 1rem}
-        .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+        .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
         @media (min-width:576px){.container{max-width:540px}}
         @media (min-width:768px){.container{max-width:720px}}
         @media (min-width:992px){.container{max-width:960px}}
@@ -61,7 +61,7 @@
         .nav-link.disabled{color:#6c757d;pointer-events:none;cursor:default}
         .navbar-nav .nav-link{padding-right:0;padding-left:0}
         .navbar-custom .navbar-nav .nav-link{color:#000;font-size:.9rem;font-weight:300;padding:.5rem 1rem!important;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
-        .navbar-custom .navbar-nav .nav-link:hover,.navbar-custom .navbar-nav .nav-link:focus{color:#369}
+        .navbar-custom .navbar-nav .nav-link:hover,.navbar-custom .navbar-nav .nav-link:focus{color:black; border:1px solid rgb(193 193 193 / 75%);padding:1px; border-radius:35px; background-color:rgb(193,193,193 / 95%);box-shadow: 4px 5px;}
         .navbar-custom .navbar-nav .nav-link.disabled{color:rgba(255,255,255,0.3)}
         .navbar-custom .navbar-nav .show > .nav-link,.navbar-custom .navbar-nav .active > .nav-link,.navbar-custom .navbar-nav .nav-link.show,.navbar-custom .navbar-nav .nav-link.active{color:#036;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
         .navbar-custom .navbar-nav .active > .nav-link:hover{color:#000!important;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
@@ -172,27 +172,27 @@
 	</header>
 	<main>
 	<!-- InstanceBeginEditable name="content" -->
-		<div class="heroWrapper">
-			<div class="container text-center">
-				<h1><span class="inline el">Control<strong><span class="el"></span> <span class="parque">of</span></strong></span> <span class="inline el">Parking</span></h1>
-				<div class="row justify-content-center mb-5">
-					<div class="col-lg-7 text-center">
-						<h4><strong><span class="el">El </span><span class="parque">Parqueito</span></strong> <span class="el">&reg;  manages the entire parking system. You can </span><strong><span class="parque"><em>Get list, edit list, add to list, and remove from list.</em></span></strong>.</h4>
-						<div class="row text-center">
-							<div class="col-md-4">
-								<a class="btn-cta btn-cta-black1 mt-4" href="form.html"><i class="fas fa-chevron-circle-right"></i> User session</a>
-							</div>
-							<div class="col-md-4" id="cta1">
-								<a class="btn-cta btn-cta-black1-outline mt-4 d-none d-sm-block" href="#next"><i class="fas fa-chevron-circle-down"></i> Page information</a>
-							</div>
-                            <div class="col-md-4">
-								<a class="btn-cta btn-cta-black1 mt-4" href="login.html"><i class="fas fa-chevron-circle-right"></i> Administrator session</a>
-							</div>
+	<div class="heroWrapper">
+		<div class="container text-center">
+			<h1><span class="inline, parque">Control<strong><span class="el"> of</span> <span class="parque"></span></strong></span> <span class="inline el"> parking</span></h1>
+			<div class="row justify-content-center mb-5">
+				<div class="col-lg-7 text-center">
+					<h4><strong><span class="el">The </span><span class="parque">KND PARKING</span></strong><span class="el">&reg; manages the entire parking system. </span> <strong><span class="parque"><em>You can Get list, edit list, add to list, and remove from list. This includes parking fields and vehicles.</em></span></strong></h4>
+					<div class="row text-center">
+						<div class="col-md-4">
+							<a class="btn-cta btn-cta-black1 mt-4" href="formulario.html"><i class="fas fa-chevron-circle-right"></i> User session</a>
+						</div>
+						<div class="col-md-4" id="cta1">
+							<a class="btn-cta btn-cta-black1-outline mt-4 d-none d-sm-block" href="#next"><i class="fas fa-chevron-circle-down"></i> Page information</a>
+						</div>
+						<div class="col-md-4">
+							<a class="btn-cta btn-cta-black1 mt-4" href="inciosesion.html"><i class="fas fa-chevron-circle-right"></i> Administrator Session</a>
 						</div>
 					</div>
-				</div> 
-			</div>
+				</div>
+			</div> 
 		</div>
+	</div>
 		
 		<div class="section">
 			<div class="section-white-wave">
